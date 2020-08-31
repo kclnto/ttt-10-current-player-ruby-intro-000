@@ -3,5 +3,6 @@ def turn_count
   count = 0
   board.each |move|
     count += 1 
+    puts count
   end
 end
